@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftPack",
+        "repositoryURL": "https://github.com/faizmokhtar/SwiftPack",
+        "state": {
+          "branch": null,
+          "revision": "4188482f0ba6831841e39175d986e1ae01d27476",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
