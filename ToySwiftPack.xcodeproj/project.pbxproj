@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		9855A011241C86450065CDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9855A010241C86450065CDEB /* Assets.xcassets */; };
 		9855A014241C86450065CDEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9855A013241C86450065CDEB /* Preview Assets.xcassets */; };
 		9855A017241C86450065CDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9855A015241C86450065CDEB /* LaunchScreen.storyboard */; };
+		9855A020241C86840065CDEB /* SwiftPack in Frameworks */ = {isa = PBXBuildFile; productRef = 9855A01F241C86840065CDEB /* SwiftPack */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9855A020241C86840065CDEB /* SwiftPack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +93,9 @@
 			dependencies = (
 			);
 			name = ToySwiftPack;
+			packageProductDependencies = (
+				9855A01F241C86840065CDEB /* SwiftPack */,
+			);
 			productName = ToySwiftPack;
 			productReference = 9855A007241C86410065CDEB /* ToySwiftPack.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 98559FFE241C86410065CDEB;
+			packageReferences = (
+				9855A01E241C86840065CDEB /* XCRemoteSwiftPackageReference "SwiftPack" */,
+			);
 			productRefGroup = 9855A008241C86410065CDEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9855A01E241C86840065CDEB /* XCRemoteSwiftPackageReference "SwiftPack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/faizmokhtar/SwiftPack";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9855A01F241C86840065CDEB /* SwiftPack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9855A01E241C86840065CDEB /* XCRemoteSwiftPackageReference "SwiftPack" */;
+			productName = SwiftPack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98559FFF241C86410065CDEB /* Project object */;
 }

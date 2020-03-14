@@ -1,16 +1,10 @@
-//
-//  ContentView.swift
-//  ToySwiftPack
-//
-//  Created by Faiz Mokhtar on 14/03/2020.
-//  Copyright © 2020 Faiz Mokhtar. All rights reserved.
-//
-
+import SwiftPack
 import SwiftUI
 
 struct ContentView: View {
+    let pack = SwiftPack(text: "Hello cruel world 🌎")
     var body: some View {
-        Text("Hello, World!")
+        Text(pack.text)
     }
 }
 
